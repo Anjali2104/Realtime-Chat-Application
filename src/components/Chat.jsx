@@ -2,6 +2,8 @@ import React from 'react'
 import Cam from '../assets/cam.png';
 import More from '../assets/more.png'
 import Add from '../assets/add.png';
+import Messages from './Messages';
+import Input from './Input';
 const Chat = () => {
   return (
     <div className='chat'>
@@ -13,6 +15,8 @@ const Chat = () => {
             <img src={More} alt="" />
         </div>
       </div>
+      <Messages/>
+       <Input/>
     </div>
   )
 }
